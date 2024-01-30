@@ -10,10 +10,14 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
-  }
+  },
+  "gitHead": "613825dfebbd3b500684b79d913bd5ba446360d4"
 }

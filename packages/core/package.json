@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "bin": {
+    "yklo-dev-cli": "bin/index.js"
+  },
   "files": [
     "lib"
   ],

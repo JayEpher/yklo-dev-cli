@@ -1,14 +1,16 @@
 {
   "name": "yklo-dev-cli",
-  "version": "1.0.0",
   "description": "yklo-cli dev",
-  "main": "index.js",
   "workspaces": [
-    "packages/*"
+    "core/*",
+    "commands/*",
+    "models/*",
+    "utils/*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
